@@ -1,8 +1,8 @@
 # Monte Carlo Integral
 A Program calculate integral with Monte Carlo method for my course Probility & Statistics.
 
-## mci.py
-the mci.py can only calculate non-negative function. It has two way to calculate integral. Suppose we got a integral $\int_a^bf(x)dx$
+## mc.py
+the mc.py can only calculate non-negative function. It has two way to calculate integral. Suppose we got a integral $\int_a^bf(x)dx$
 ### method 1
 1. generate uniform random numbers $x_i, i=1,2,3,\cdots, n$ in $[a,b]$ .
 2. calculate the function value $f(x_i)$
@@ -18,4 +18,4 @@ the mci.py can only calculate non-negative function. It has two way to calculate
 the extra-2.py can calculate both positive and negative function but it has a very low efficiency.
 
 
-the mc.py is abandoned because of its low efficiency. Just to memorized my first small program :grin:
+the mci.py is abandoned because of its low efficiency. Just to memorized my first small program :grin:
